@@ -1,4 +1,4 @@
-import { ShoppingCart, QrCode, CreditCard, Layers, Gift } from 'lucide-react';
+import { ShoppingCart, QrCode, CreditCard, Puzzle, Gift } from 'lucide-react';
 
 export default function JourneySection() {
   const steps = [
@@ -8,7 +8,7 @@ export default function JourneySection() {
       title: 'Achat produit',
       description: 'Le client achète votre produit en magasin',
       circleColor: 'bg-green-600',
-      boxBg: 'bg-green-50',
+      boxBg: 'bg-white',
       boxBorder: 'border-green-200',
       iconColor: 'text-green-600',
     },
@@ -18,7 +18,7 @@ export default function JourneySection() {
       title: 'Scan QR Code',
       description: "Il scanne le code sur l'emballage",
       circleColor: 'bg-green-600',
-      boxBg: 'bg-green-50',
+      boxBg: 'bg-white',
       boxBorder: 'border-green-200',
       iconColor: 'text-green-600',
     },
@@ -28,17 +28,17 @@ export default function JourneySection() {
       title: 'Déblocage carte',
       description: 'Une carte digitale est débloquée',
       circleColor: 'bg-green-600',
-      boxBg: 'bg-green-50',
+      boxBg: 'bg-white',
       boxBorder: 'border-green-200',
       iconColor: 'text-green-600',
     },
     {
       number: 4,
-      icon: Layers,
+      icon: Puzzle,
       title: 'Collection',
       description: 'Il complète sa collection',
       circleColor: 'bg-red-600',
-      boxBg: 'bg-red-50',
+      boxBg: 'bg-white',
       boxBorder: 'border-red-200',
       iconColor: 'text-red-600',
     },
@@ -48,7 +48,7 @@ export default function JourneySection() {
       title: 'Récompenses',
       description: 'Participe aux tirages',
       circleColor: 'bg-red-600',
-      boxBg: 'bg-red-50',
+      boxBg: 'bg-white',
       boxBorder: 'border-red-200',
       iconColor: 'text-red-600',
     },
