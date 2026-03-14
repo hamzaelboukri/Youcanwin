@@ -1,12 +1,10 @@
-import { Trophy } from 'lucide-react';
-
 export default function Header() {
   return (
     <header className="w-full fixed top-0 left-0 z-50 px-20 bg-white/95 shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] backdrop-blur-[6px]">
       <div className="w-full max-w-[1280px] mx-auto p-4 flex justify-between items-center">
         <div className="flex justify-start items-center gap-3">
-          <div className="w-10 h-10 bg-green-600 rounded-lg flex justify-center items-center">
-            <Trophy className="w-6 h-6 text-white" />
+          <div className="w-10 h-10 bg-green-600 rounded-lg flex justify-center items-center overflow-hidden">
+            <img src="/images/logo-trophy.png" alt="" className="w-6 h-6 object-contain mix-blend-lighten" />
           </div>
           <div className="flex items-center gap-2">
             <div className="flex items-center">

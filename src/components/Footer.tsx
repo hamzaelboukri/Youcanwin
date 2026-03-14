@@ -1,4 +1,4 @@
-import { Trophy, Facebook, Twitter, Instagram, Linkedin, ShieldCheck, ExternalLink } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, ShieldCheck, ExternalLink } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -7,8 +7,8 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-green-600 rounded-lg flex justify-center items-center">
-                <Trophy className="w-6 h-6 text-white" />
+              <div className="w-10 h-10 bg-green-600 rounded-lg flex justify-center items-center overflow-hidden">
+                <img src="/images/logo-trophy.png" alt="" className="w-6 h-6 object-contain mix-blend-lighten" />
               </div>
               <div className="flex items-center">
                 <span className="text-red-600 font-bold text-xl font-['Poppins']">You</span>
