@@ -20,13 +20,13 @@ export default function BenefitsSection() {
   ];
 
   return (
-    <section className="py-16 lg:py-24 bg-green-700">
+    <section className="py-16 lg:py-24 bg-[#1e5631]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white font-['Poppins'] mb-4">
             Transformez vos ventes en expérience mémorable
           </h2>
-          <p className="text-white text-lg lg:text-xl max-w-3xl mx-auto font-['Poppins'] opacity-90">
+          <p className="text-white text-lg lg:text-xl max-w-3xl mx-auto font-['Poppins'] opacity-95">
             YouCanWin offre à vos clients plus qu&apos;un produit : une expérience interactive complète autour du football
           </p>
         </div>
@@ -35,13 +35,13 @@ export default function BenefitsSection() {
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="bg-green-600/80 rounded-2xl p-8 text-center backdrop-blur-sm border border-green-500/30"
+              className="bg-[#2c7a5a]/90 rounded-2xl p-8 text-center shadow-lg"
             >
-              <div className="w-16 h-16 bg-white/10 rounded-xl flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-[#4CAF50] rounded-xl flex items-center justify-center mx-auto mb-6">
                 <benefit.icon className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-white font-['Poppins'] mb-3">{benefit.title}</h3>
-              <p className="text-white/90 font-['Poppins'] leading-relaxed">{benefit.description}</p>
+              <p className="text-white/90 font-['Poppins'] leading-relaxed text-base">{benefit.description}</p>
             </div>
           ))}
         </div>
