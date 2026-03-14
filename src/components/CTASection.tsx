@@ -10,17 +10,17 @@ export default function CTASection() {
         <p className="text-white/90 text-lg mb-8 font-['Poppins']">
           Rejoignez les marques qui engagent leurs fans avec YouCanWin
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="#demo"
-            className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white border-2 border-red-600 text-red-600 rounded-lg hover:bg-red-50 transition-colors font-semibold text-lg font-['Poppins']"
+            className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white border border-red-600 text-red-600 rounded-lg hover:bg-red-50 transition-colors font-semibold text-lg font-['Poppins']"
           >
-            <Calendar className="w-5 h-5" />
+            <Calendar className="w-5 h-5 text-red-600" />
             Planifier une démo gratuite
           </a>
           <a
             href="mailto:games@agency.africa"
-            className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-red-700 text-white rounded-lg hover:bg-red-800 transition-colors font-semibold text-lg font-['Poppins']"
+            className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-red-700 border border-red-700 text-white rounded-lg hover:bg-red-800 transition-colors font-semibold text-lg font-['Poppins']"
           >
             <Mail className="w-5 h-5" />
             Nous contacter

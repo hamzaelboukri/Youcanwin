@@ -8,7 +8,7 @@ export default function HeroSection() {
         <div className="w-full h-full absolute inset-0 bg-gradient-to-r from-slate-200/30 to-slate-200/0" />
       </div>
       <div className="max-w-[1280px] w-full px-4 py-32 relative z-10 flex flex-col lg:flex-row justify-start items-start gap-8">
-        <div className="flex flex-col justify-start items-start gap-8 flex-1 pl-4 border-l-2 border-l-sky-200">
+        <div className="flex flex-col justify-start items-start gap-8 flex-1">
           <div className="flex flex-col gap-0 relative">
             <h1 className="text-slate-900 text-5xl sm:text-6xl lg:text-7xl font-bold font-['Poppins'] leading-tight">
               Transformez

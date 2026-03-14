@@ -1,4 +1,4 @@
-import { QrCode, Users, Settings, BarChart3, Gift, Bell, CloudDownload, Briefcase, Target, ArrowRight } from 'lucide-react';
+import { QrCode, Users, Settings, BarChart3, Gift, Bell, DownloadCloud, Briefcase, Target, ArrowRight } from 'lucide-react';
 
 export default function BackofficeSection() {
   const features = [
@@ -33,7 +33,7 @@ export default function BackofficeSection() {
       description: 'Envoyez des push, emails et SMS à vos participants',
     },
     {
-      icon: CloudDownload,
+      icon: DownloadCloud,
       title: 'Export données',
       description: 'Téléchargez vos données en CSV, Excel ou via API',
     },
