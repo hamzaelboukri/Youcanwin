@@ -57,15 +57,15 @@ export default function HeroSection() {
           </div>
           <div className="pt-6 mt-2 border-t border-slate-200 flex flex-wrap justify-start items-start gap-8">
             <div className="w-44 flex flex-col justify-start items-start gap-1">
-              <div className="text-green-600 text-3xl sm:text-4xl font-bold font-['Poppins'] leading-10">500K+</div>
+              <div className="text-3xl sm:text-4xl font-bold font-['Poppins'] leading-10" style={{ color: '#0B6B3A' }}>500K+</div>
               <div className="text-slate-600 text-sm font-medium font-['Poppins'] leading-5">Interactions/mois</div>
             </div>
             <div className="w-44 flex flex-col justify-start items-start gap-1">
-              <div className="text-green-600 text-3xl sm:text-4xl font-bold font-['Poppins'] leading-10">50+</div>
+              <div className="text-3xl sm:text-4xl font-bold font-['Poppins'] leading-10" style={{ color: '#B01219' }}>50+</div>
               <div className="text-slate-600 text-sm font-medium font-['Poppins'] leading-5">Marques actives</div>
             </div>
             <div className="w-44 flex flex-col justify-start items-start gap-1">
-              <div className="text-green-600 text-3xl sm:text-4xl font-bold font-['Poppins'] leading-10">x3.5</div>
+              <div className="text-3xl sm:text-4xl font-bold font-['Poppins'] leading-10" style={{ color: '#0B6B3A' }}>x3.5</div>
               <div className="text-slate-600 text-sm font-medium font-['Poppins'] leading-5">ROI moyen</div>
             </div>
           </div>
