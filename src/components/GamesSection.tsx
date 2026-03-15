@@ -41,9 +41,9 @@ export default function GamesSection() {
   ];
 
   return (
-    <section id="jeux" className="py-16 lg:py-24 bg-[#F5F5F5]">
+    <section id="jeux" className="py-12 sm:py-16 lg:py-24 bg-[#F5F5F5]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 font-['Poppins'] mb-4">
             Catalogue de jeux
           </h2>
@@ -52,7 +52,7 @@ export default function GamesSection() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-12">
           {games.map((game, index) => (
             <div
               key={index}
@@ -72,7 +72,7 @@ export default function GamesSection() {
                   </span>
                 )}
               </div>
-              <div className={`p-6 ${game.centered ? 'text-center' : ''}`}>
+              <div className={`p-4 sm:p-6 ${game.centered ? 'text-center' : ''}`}>
                 <h3 className="font-bold text-slate-900 font-['Poppins'] text-lg mb-2">{game.title}</h3>
                 <p className="text-slate-600 text-sm font-['Poppins'] mb-4 leading-relaxed">{game.description}</p>
                 {game.showLink && (

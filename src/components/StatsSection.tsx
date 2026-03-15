@@ -9,9 +9,9 @@ export default function StatsSection() {
   ];
 
   return (
-    <section className="py-16 lg:py-20 bg-white">
+    <section className="py-12 sm:py-16 lg:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-12">
           {stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center text-center">
               <div
@@ -21,7 +21,7 @@ export default function StatsSection() {
                 <stat.icon className="w-6 h-6" style={{ color: stat.color }} />
               </div>
               <div
-                className="text-2xl lg:text-3xl font-bold font-['Poppins'] mb-1"
+                className="text-xl sm:text-2xl lg:text-3xl font-bold font-['Poppins'] mb-1"
                 style={{ color: stat.color }}
               >
                 {stat.value}

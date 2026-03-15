@@ -25,7 +25,7 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <section className="px-6 sm:px-12 lg:px-24 py-16 lg:py-20 bg-slate-50/50">
+    <section className="px-4 sm:px-6 lg:px-12 xl:px-24 py-12 sm:py-16 lg:py-20 bg-slate-50/50">
       <div className="max-w-6xl mx-auto">
         <div className="bg-white rounded-3xl shadow-sm overflow-hidden flex flex-col lg:flex-row border border-slate-100">
           <div className="lg:w-1/2 flex-shrink-0">
@@ -35,7 +35,7 @@ export default function FeaturesSection() {
               alt="YouCanWin solution - Football sur terrain"
             />
           </div>
-          <div className="lg:w-1/2 flex flex-col justify-start items-start gap-5 p-8 lg:p-12">
+          <div className="lg:w-1/2 flex flex-col justify-start items-start gap-4 sm:gap-5 p-6 sm:p-8 lg:p-12">
             <div className="px-3 py-1.5 bg-green-100 rounded-full inline-flex justify-start items-center gap-2">
               <Check className="w-4 h-4 text-green-700" />
               <span className="text-green-800 text-sm font-medium font-['Poppins']">Solution complète</span>

@@ -71,9 +71,9 @@ export default function PricingSection() {
   ];
 
   return (
-    <section id="offres" className="py-16 lg:py-24 bg-gradient-to-b from-gray-50 to-white">
+    <section id="offres" className="py-12 sm:py-16 lg:py-24 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 font-['Poppins'] mb-4">
             Des formules adaptées à votre échelle
           </h2>
@@ -82,12 +82,12 @@ export default function PricingSection() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`relative bg-white rounded-2xl shadow-lg p-8 border border-slate-200 ${
-                plan.popular ? 'ring-2 ring-red-500 scale-105 z-10' : ''
+              className={`relative bg-white rounded-2xl shadow-lg p-6 sm:p-8 border border-slate-200 ${
+                plan.popular ? 'ring-2 ring-red-500 scale-100 md:scale-105 z-10' : ''
               }`}
             >
               {plan.popular && (

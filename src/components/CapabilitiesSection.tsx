@@ -30,9 +30,9 @@ export default function CapabilitiesSection() {
   ];
 
   return (
-    <section className="py-16 lg:py-24 bg-white">
+    <section className="py-12 sm:py-16 lg:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-20">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-12 xl:gap-20">
           {capabilities.map((cap, index) => (
             <div key={index} className="flex flex-col items-center text-center">
               <div className="w-14 h-14 bg-[#F0FFF4] rounded-xl flex items-center justify-center mb-4">

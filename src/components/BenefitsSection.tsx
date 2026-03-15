@@ -20,9 +20,9 @@ export default function BenefitsSection() {
   ];
 
   return (
-    <section className="py-16 lg:py-24 bg-[#1e5631]">
+    <section className="py-12 sm:py-16 lg:py-24 bg-[#1e5631]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white font-['Poppins'] mb-4">
             Transformez vos ventes en expérience mémorable
           </h2>
@@ -31,11 +31,11 @@ export default function BenefitsSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="bg-[#2c7a5a]/90 rounded-2xl p-8 text-center shadow-lg"
+              className="bg-[#2c7a5a]/90 rounded-2xl p-6 sm:p-8 text-center shadow-lg"
             >
               <div className="w-16 h-16 bg-[#4CAF50] rounded-xl flex items-center justify-center mx-auto mb-6">
                 <benefit.icon className="w-8 h-8 text-white" />
