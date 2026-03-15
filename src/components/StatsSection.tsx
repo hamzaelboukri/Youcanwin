@@ -3,9 +3,9 @@ import { TrendingUp, Users, Star, Settings } from 'lucide-react';
 export default function StatsSection() {
   const stats = [
     { icon: TrendingUp, value: '500K+', label: 'Interactions mensuelles', color: '#0B6B3A' },
-    { icon: Users, value: '50+', label: 'Marques partenaires', color: '#B01219' },
+    { icon: Users, value: '50+', label: 'Marques partenaires', color: '#0B6B3A' },
     { icon: Star, value: '98%', label: 'Taux de satisfaction', color: '#0B6B3A' },
-    { icon: Settings, value: '24/7', label: 'Support technique', color: '#B01219' },
+    { icon: Settings, value: '24/7', label: 'Support technique', color: '#0B6B3A' },
   ];
 
   return (
